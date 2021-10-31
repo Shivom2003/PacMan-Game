@@ -5,6 +5,7 @@ public class Pacman extends JFrame{
 	public Pacman() {
 		add(new Model());
 	}		
+	
 	public static void main(String[] args) {
 		Pacman pac = new Pacman();
 		pac.setVisible(true);
